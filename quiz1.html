@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Quiz</title>
+    <link rel="stylesheet" href="quiz1.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        <h1>Fitness Quiz</h1>
+        <h3>Complete Your Profile (Quiz 1 of 2)</h3>
+        <form id="quiz-form">
+            
+            <!-- General Fitness Goals Section -->
+            <section class="quiz-section">
+                <h2>General Fitness Goals</h2>
+                <div class="question">
+                    <label>1) What are your primary fitness goals?</label>
+                    <select name="fitness-goals" required>
+                        <option value="">Select an option</option>
+                        <option value="Weight loss">Weight loss</option>
+                        <option value="Muscle gain">Muscle gain</option>
+                        <option value="Flexibility">Flexibility</option>
+                        <option value="Endurance">Endurance</option>
+                        <option value="Stress relief">Stress relief</option>
+                        <option value="Overall health">Overall health</option>
+                    </select>
+                </div>
+
+                <div class="question">
+                    <label>2) How many days per week can you dedicate to exercising?</label>
+                    <input type="number" name="exercise-days" min="1" max="7" required>
+                </div>
+
+                <div class="question">
+                    <label>3) What is your current fitness level?</label>
+                    <select name="fitness-level" required>
+                        <option value="">Select an option</option>
+                        <option value="Beginner">Beginner</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Advanced">Advanced</option>
+                    </select>
+                </div>
+            </section>
+
+            <!-- Exercise Preferences Section -->
+            <section class="quiz-section">
+                <h2>Exercise Preferences</h2>
+                <div class="question">
+                    <label>1) What type of exercise do you enjoy the most?</label>
+                    <select name="exercise-type" required>
+                        <option value="">Select an option</option>
+                        <option value="Cardio">Cardio</option>
+                        <option value="Yoga">Yoga</option>
+                        <option value="Pilates">Pilates</option>
+                        <option value="Weight Training">Weight Training</option>
+                        <option value="Bodyweight Exercises">Bodyweight Exercises</option>
+                    </select>
+                </div>
+
+                <div class="question">
+                    <label>2) Do you prefer working out with equipment or without equipment?</label>
+                    <select name="equipment-preference" required>
+                        <option value="">Select an option</option>
+                        <option value="With equipment">With equipment</option>
+                        <option value="Without equipment">Without equipment</option>
+                    </select>
+                </div>
+
+                <div class="question">
+                    <label>3) Are you interested in outdoor activities as part of your fitness routine?</label>
+                    <select name="outdoor-activities" required>
+                        <option value="">Select an option</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </div>
+
+                <div class="question">
+                    <label>4) Do you have any experience with yoga or Pilates?</label>
+                    <select name="yoga-experience" required>
+                        <option value="">Select an option</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </div>
+
+                <div class="question">
+                    <label>5) Are there any specific areas of your body you want to focus on?</label>
+                    <select name="focus-areas" required>
+                        <option value="">Select an option</option>
+                        <option value="Upper body">Upper body</option>
+                        <option value="Lower body">Lower body</option>
+                        <option value="Core">Core</option>
+                        <option value="Full body">Full body</option>
+                    </select>
+                </div>
+            </section>
+
+            <!-- Health & Physical Condition Section -->
+            <section class="quiz-section">
+                <h2>Health & Physical Condition</h2>
+                <div class="question">
+                    <label>1) Do you have any medical conditions or injuries that may affect your exercise routine?</label>
+                    <select name="medical-conditions" required>
+                        <option value="">Select an option</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                    <input type="text" name="medical-details" placeholder="If yes, please elaborate">
+                </div>
+
+                <div class="question">
+                    <label>2) Do you have any dietary restrictions or preferences?</label>
+                    <input type="text" name="dietary-restrictions" placeholder="e.g., Vegan, Vegetarian, Gluten-Free, etc.">
+                </div>
+
+                <div class="question">
+                    <label>3) How would you describe your current diet?</label>
+                    <input type="text" name="current-diet" placeholder="e.g., Balanced, High in protein, etc.">
+                </div>
+            </section>
+
+            <!-- Diet & Nutrition Section -->
+            <section class="quiz-section">
+                <h2>Diet & Nutrition</h2>
+                <div class="question">
+                    <label>1) What is your main goal with your diet?</label>
+                    <select name="diet-goal" required>
+                        <option value="">Select an option</option>
+                        <option value="Weight loss">Weight loss</option>
+                        <option value="Muscle gain">Muscle gain</option>
+                        <option value="Maintenance">Maintenance</option>
+                        <option value="Improved energy levels">Improved energy levels</option>
+                        <option value="Better digestion">Better digestion</option>
+                    </select>
+                </div>
+
+                <div class="question">
+                    <label>2) How many meals do you typically eat per day?</label>
+                    <select name="meal-frequency" required>
+                        <option value="">Select an option</option>
+                        <option value="1-2">1-2</option>
+                        <option value="3">3</option>
+                        <option value="4-5">4-5</option>
+                        <option value="6+">6+</option>
+                    </select>
+                </div>
+
+                <div class="question">
+                    <label>3) Are you looking for meal plans or recipe suggestions?</label>
+                    <select name="meal-plans" required>
+                        <option value="">Select an option</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </div>
+
+                <div class="question">
+                    <label>4) How much time can you dedicate to meal preparation each day?</label>
+                    <select name="meal-prep-time" required>
+                        <option value="">Select an option</option>
+                        <option value="15 minutes or less">15 minutes or less</option>
+                        <option value="30 minutes">30 minutes</option>
+                        <option value="1 hour">1 hour</option>
+                        <option value="More than 1 hour">More than 1 hour</option>
+                    </select>
+                </div>
+            </section>
+
+            <div class="submit-button">
+                <button type="submit" onclick="location.href='quiz2.html'">Submit Quiz</button>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="quiz1.js"></script>
+</body>
+</html>

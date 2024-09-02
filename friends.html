@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends - Fitness Webpage</title>
+    <link rel="stylesheet" href="community.css">
+</head>
+<body>
+    <header>
+        <h1>Your Friends</h1>
+    </header>
+    <main>
+        <section id="search">
+            <h2>Search and Add Friends</h2>
+            <form id="search-form">
+                <input type="text" id="search-name" placeholder="Search by name or email" required>
+                <button type="submit">Search/Add</button>
+            </form>
+        </section>
+
+        <section id="friends-list">
+            <h2>Friends List</h2>
+            <ul>
+                <li>
+                    <div class="friend">
+                        <span>Friend 1</span>
+                        <button class="dropdown-btn" onclick="toggleDropdown('friend1-dropdown')">▼</button>
+                        <div class="dropdown-content" id="friend1-dropdown">
+                            <a href="friend1.html">View Progress</a>
+                            <a href="#" onclick="compareProgress('Friend 1')">Compare with You</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="friend">
+                        <span>Friend 2</span>
+                        <button class="dropdown-btn" onclick="toggleDropdown('friend2-dropdown')">▼</button>
+                        <div class="dropdown-content" id="friend2-dropdown">
+                            <a href="friend2.html">View Progress</a>
+                            <a href="#" onclick="compareProgress('Friend 2')">Compare with You</a>
+                        </div>
+                    </div>
+                </li>
+                <!-- Add more friends here -->
+            </ul>
+        </section>
+
+        <section id="leaderboard">
+            <h2>Leaderboard</h2>
+            <a href="leaderboard.html">View Leaderboard</a>
+        </section>
+    </main>
+
+    <script src="community.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community - Fitness Webpage</title>
+    <link rel="stylesheet" href="community.css">
+</head>
+<body>
+    <header>
+        <h1>Community</h1>
+    </header>
+    <main>
+        <section id="search">
+            <h2>Search</h2>
+            <form id="search-form">
+                <input type="text" id="search-name" placeholder="Search by name or topic" required>
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <section id="articles-posts">
+            <h2>Articles and Community Posts</h2>
+            <div class="post">
+                <h3>Article 1: Benefits of Morning Workouts</h3>
+                <p>Discover the numerous benefits of working out in the morning...</p>
+                <a href="article1.html">Read More</a>
+            </div>
+            <div class="post">
+                <h3>Post: My 30-Day Fitness Challenge Journey</h3>
+                <p>I just completed a 30-day fitness challenge, and here’s how it went...</p>
+                <a href="post1.html">Read More</a>
+            </div>
+            <div class="post">
+                <h3>Article 2: Top 10 Exercises for Building Muscle</h3>
+                <p>Here are the top 10 exercises that will help you build muscle effectively...</p>
+                <a href="article2.html">Read More</a>
+            </div>
+            <!-- Add more articles/posts here -->
+        </section>
+
+        <section id="friends-section">
+            <button onclick="window.location.href='friends.html'">Friends</button>
+        </section>
+    </main>
+
+    <script src="community.js"></script>
+</body>
+</html>

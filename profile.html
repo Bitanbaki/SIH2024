@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="profile.css">
+
+      <title>Profile</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="index2.html" class="nav__logo">FitxFun</a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+
+                  <li class="nav__item">
+                     <a href="home.html" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>Home</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="quiz1.html" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>Plans</span>
+                     </a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="progress.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>Progress Tracking</span>
+                    </a>
+                 </li>
+
+                  <li class="nav__item">
+                     <a href="community.html" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>Community</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="contact.html" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>Contact</span>
+                     </a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-large-line"></i>
+            </div>
+
+            <div class="nav__social">
+               <a href="https://www.instagram.com/" target="_blank" class="nav__social-link">
+                  <i class="ri-instagram-line"></i>
+               </a>
+
+               <a href="https://github.com/" target="_blank" class="nav__social-link">
+                  <i class="ri-github-line"></i>
+               </a>
+
+               <a href="https://facebook.com/" target="_blank" class="nav__social-link">
+                  <i class="ri-facebook-line"></i>
+               </a>
+
+               <a href="https://www.linkedin.com/" target="_blank" class="nav__social-link">
+                  <i class="ri-linkedin-box-line"></i>
+               </a>
+            </div>
+         </div>
+
+         <!-- Toggle button -->
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+         </div>
+         </nav>
+      </header>
+
+      <div class="container">
+         <div class="profile-header">
+             <img id="profilePic" src="userpfp.jpg" alt="Profile Picture">
+             <h2 id="userName">John Doe</h2>
+         </div>
+         <div class="profile-details">
+             <p><strong>Age:</strong> <span id="userAge">30</span></p>
+             <p><strong>Sex:</strong> <span id="userSex">Male</span></p>
+             <p><strong>Phone:</strong> <span id="userPhone">+1234567890</span></p>
+             <p><strong>Height(cm):</strong> <span id="userHeight">5'9"</span></p>
+             <p><strong>Weight(kg):</strong> <span id="userWeight">70kg</span></p>
+             <p><strong>Email:</strong> <span id="userEmail">johndoe@example.com</span></p>
+             <a href="update.html" class="btn">Update Details</a>
+         </div>
+     </div>
+      
+      <!--=============== MAIN JS ===============-->
+      <script src="profile.js"></script>
+   </body>
+</html>

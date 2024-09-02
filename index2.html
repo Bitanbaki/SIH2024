@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FitxFun</title>
+    <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">FitxFun</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="calorie.html">CALORIE CALCULATOR</a></li>
+                    <li><a href="bmi-calculator.html">BMI CALCULATOR</a></li>
+                    <li><a href="#">INFO</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div> 
+        <div class="content">
+            <h1>Personalised <br><span>Fitness & Diet</span> <br>Plans</h1>
+            <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque 
+                 expedita atque eveniet <br> quis nesciunt. Quos nulla vero consequuntur, fugit nemo ad delectus 
+                <br> a quae totam ipsa illum minus laudantium?</p>
+
+            <div class="login">
+                <form action="" class="login__form">
+                   <h1 class="login__title">Login</h1>
+       
+                   <div class="login__content">
+                      <div class="login__box">
+                         <i class="ri-user-3-line login__icon"></i>
+       
+                         <div class="login__box-input">
+                            <input type="email" required class="login__input" id="login-email" placeholder=" ">
+                            <label for="login-email" class="login__label">Email</label>
+                         </div>
+                      </div>
+       
+                      <div class="login__box">
+                         <i class="ri-lock-2-line login__icon"></i>
+       
+                         <div class="login__box-input">
+                            <input type="password" required class="login__input" id="login-pass" placeholder=" ">
+                            <label for="login-pass" class="login__label">Password</label>
+                            <i class="ri-eye-off-line login__eye" id="login-eye"></i>
+                         </div>
+                      </div>
+                   </div>
+       
+                   <div class="login__check">
+                      <div class="login__check-group">
+                         <input type="checkbox" class="login__check-input" id="login-check">
+                         <label for="login-check" class="login__check-label">Remember me</label>
+                      </div>
+       
+                      <a href="forgot-password.html" class="login__forgot">Forgot Password?</a>
+                   </div>
+       
+                   <button type="submit" class="login__button" onclick="location.href='home.html'">Login</button>
+       
+                   <p class="login__register">
+                      Don't have an account? <a href="register.html">Register</a>
+                   </p>
+                </form>
+                 
+                <div class="icons">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include JS -->
+    <script src="index2.js"></script>
+</body>
+</html>
